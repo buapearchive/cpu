@@ -1,0 +1,13 @@
+name = "cpu"
+account_id = ""
+main = "src/index.ts"
+compatibility_date = "2023-03-20"
+kv_namespaces = [{ binding = "<YOUR_BINDING>", id = "<YOUR_ID>" }]
+
+[vars]
+CLIENT_ID = "00000000"
+TOKEN = "tokenhere"
+PUBLIC_KEY = "13g807bu3n1g987vybu"
+PORTAINER_KEY = "o1unfoeaufou"
+CF_ACCESS_ID = "aeogugbaoeubgaoeugbaeogubae"
+CF_ACCESS_SECRET = "eoguabgouabegouabgouabgae"
