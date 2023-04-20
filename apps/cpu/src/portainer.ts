@@ -8,7 +8,7 @@ const pfetch = async (path: string, options: RequestInit, env: Env) => {
         headers: {
             "Cf-Access-Client-Id": env.CF_ACCESS_ID,
             "Cf-Access-Client-Secret": env.CF_ACCESS_SECRET,
-            "Authorization": `Bearer ${env.PORTAINER_KEY}`,
+            "X-API-Key": env.PORTAINER_KEY,
         },
     })
 }
