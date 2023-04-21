@@ -12,6 +12,7 @@
 		"preinstall": "npx only-allow pnpm",
 		"pretty": "pnpm run clean && pnpm run format && pnpm run lint",
 		"publish": "changeset version && pnpm run build && changeset publish",
+		"start": "dotenv -- turbo run start",
 		"tail": "turbo run tail"
 	},
 	"devDependencies": {
