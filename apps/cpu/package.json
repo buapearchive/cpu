@@ -18,6 +18,6 @@
 		"@cloudflare/workers-types": "^4.20230321.0",
 		"discord-api-types": "^0.37.37",
 		"discord-verify": "^1.0.0",
-		"itty-router": "^3.0.12"
+		"itty-router": "^4.0.0"
 	}
 }
