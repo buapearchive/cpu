@@ -14,7 +14,7 @@
 		"wrangler": "2.13.0"
 	},
 	"dependencies": {
-		"@cloudflare/itty-router-openapi": "^0.0.15",
+		"@cloudflare/itty-router-openapi": "^1.0.0",
 		"@cloudflare/workers-types": "^4.20230321.0",
 		"discord-api-types": "^0.37.37",
 		"discord-verify": "^1.0.0",
