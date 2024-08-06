@@ -42,8 +42,8 @@ importers:
   apps/cpu:
     dependencies:
       '@cloudflare/itty-router-openapi':
-        specifier: ^0.0.15
-        version: 0.0.15
+        specifier: ^0.1.0
+        version: 0.1.0
       '@cloudflare/workers-types':
         specifier: ^4.20230321.0
         version: 4.20230321.0
@@ -278,10 +278,10 @@ packages:
       prettier: 2.8.7
     dev: false
 
-  /@cloudflare/itty-router-openapi@0.0.15:
-    resolution: {integrity: sha512-Npu/dQ1jOqhuQCkiWQZK/iYG68335D0zRf4i4ejfhjZfIjuRLgaGGfDAGyK88Bn03XBZH3ywI9k5g8tnesdDrA==}
+  /@cloudflare/itty-router-openapi@0.1.0:
+    resolution: {integrity: sha512-7SaET9THG/n0p+ze7cV3Qwly2hUJCVxn9s6sEF4LXXbpW5/aqg68pLdQCb4LmByb1FlgHxTCWByrc8pVsk8mxQ==}
     dependencies:
-      itty-router: 2.6.6
+      itty-router: 3.0.12
     dev: false
 
   /@cloudflare/kv-asset-handler@0.2.0:
@@ -2239,10 +2239,6 @@ packages:
 
   /isexe@2.0.0:
     resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
-
-  /itty-router@2.6.6:
-    resolution: {integrity: sha512-hIPHtXGymCX7Lzb2I4G6JgZFE4QEEQwst9GORK7sMYUpJvLfy4yZJr95r04e8DzoAnj6HcxM2m4TbK+juu+18g==}
-    dev: false
 
   /itty-router@3.0.12:
     resolution: {integrity: sha512-s98XTPhle6GGbaFf0kYrOD3Q8gyhnqvOqkwYijC3AmkceNKqWUp13YHg6dWmqmVv4pP7l7c94XI92I0EXVGO0w==}
